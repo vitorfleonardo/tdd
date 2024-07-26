@@ -1,0 +1,23 @@
+Atividade 4 – TDD
+Objetivo: desenvolver um pequeno sistema para manter uma agenda dos eventos que deseja assistir
+nos Jogos Olímpicos.
+Requisitos do Usuário para o Agendador dos Jogos Olímpicos:
+1.Adicionar Evento:
+a. O sistema deve permitir que o usuário adicione um evento à agenda, fornecendo o
+nome do evento, a hora de início e a hora de término.
+b. O usuário deve ser solicitado a inserir o nome do evento, a hora de início e a hora de
+término no formato "YYYY-MM-DD HH:MM".
+c. O sistema deve verificar conflitos de agendamento antes de adicionar o evento. Se
+um conflito for detectado, o sistema não deve adicionar o evento e deve informar o
+usuário.
+2.Remover Evento:
+a. O sistema deve permitir que o usuário remova um evento da agenda, fornecendo o
+nome do evento.
+3.Mostrar Agenda:
+a. O sistema deve permitir que o usuário visualize a agenda atual, listando todos os
+eventos com seus respectivos horários de início e término.
+4.Lidar com Entradas Inválidas:
+a. O sistema deve lidar com entradas inválidas de forma adequada e informar o usuário
+sobre quaisquer erros, como formatos de data incorretos ou ações inválidas.
+5.Sair:
+a. O sistema deve permitir que o usuário saia da aplicação
